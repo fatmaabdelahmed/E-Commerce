@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ItI\\Backend\\C#\\API\\Project\\Ecom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38F4B789-A6EA-4A0B-ACA7-A4B778800AAB}|Ecom.infrastructure\\Ecom.infrastructure.csproj|d:\\iti\\backend\\c#\\api\\project\\ecom\\ecom.infrastructure\\data\\config\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F4B789-A6EA-4A0B-ACA7-A4B778800AAB}|Ecom.infrastructure\\Ecom.infrastructure.csproj|solutionrelative:ecom.infrastructure\\data\\config\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F4B789-A6EA-4A0B-ACA7-A4B778800AAB}|Ecom.infrastructure\\Ecom.infrastructure.csproj|d:\\iti\\backend\\c#\\api\\project\\ecom\\ecom.infrastructure\\data\\config\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F4B789-A6EA-4A0B-ACA7-A4B778800AAB}|Ecom.infrastructure\\Ecom.infrastructure.csproj|solutionrelative:ecom.infrastructure\\data\\config\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "D:\\ItI\\Backend\\C#\\API\\Project\\Ecom\\Ecom.infrastructure\\Data\\Config\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "Ecom.infrastructure\\Data\\Config\\CategoryConfiguration.cs",
+              "ToolTip": "D:\\ItI\\Backend\\C#\\API\\Project\\Ecom\\Ecom.infrastructure\\Data\\Config\\CategoryConfiguration.cs",
+              "RelativeToolTip": "Ecom.infrastructure\\Data\\Config\\CategoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T18:20:35.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "D:\\ItI\\Backend\\C#\\API\\Project\\Ecom\\Ecom.infrastructure\\Data\\Config\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "Ecom.infrastructure\\Data\\Config\\ProductConfiguration.cs",
+              "ToolTip": "D:\\ItI\\Backend\\C#\\API\\Project\\Ecom\\Ecom.infrastructure\\Data\\Config\\ProductConfiguration.cs",
+              "RelativeToolTip": "Ecom.infrastructure\\Data\\Config\\ProductConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T18:08:14.062Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
