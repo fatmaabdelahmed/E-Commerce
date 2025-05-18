@@ -13,14 +13,14 @@ namespace Ecom.API
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
             object value = builder.Services.infrastuctureConfiguration(builder.Configuration);
-
+            builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             var app = builder.Build();
-
+            app.UseSwaggerUI(op => op.SwaggerEndpoint("/openapi/v1.json", "v1"));
             // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
+            //if (app.Environment.IsDevelopment())
+            //{
                 app.MapOpenApi();
-            }
+            //}
 
             app.UseHttpsRedirection();
 

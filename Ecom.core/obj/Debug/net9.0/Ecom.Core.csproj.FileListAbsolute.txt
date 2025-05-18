@@ -9,3 +9,5 @@ D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\obj\Debug\net9.0\Ecom.Core.dll
 D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\obj\Debug\net9.0\refint\Ecom.Core.dll
 D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\obj\Debug\net9.0\Ecom.Core.pdb
 D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\obj\Debug\net9.0\ref\Ecom.Core.dll
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\obj\Debug\net9.0\Ecom.Core.csproj.AssemblyReference.cache
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\obj\Debug\net9.0\Ecom.Core.sourcelink.json
