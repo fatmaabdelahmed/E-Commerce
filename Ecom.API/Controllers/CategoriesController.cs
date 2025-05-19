@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Ecom.API.Controllers
 {
-
+     
     public class CategoriesController : BaseController
     {
         public CategoriesController(IUnitOfWork work, IMapper mapper) : base(work, mapper)

@@ -3,6 +3,7 @@ using Ecom.infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Ecom.infrastructure.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250519001039_update product record")]
+    partial class updateproductrecord
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -71,14 +74,6 @@ namespace Ecom.infrastructure.Data.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("Photos");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 3,
-                            ImageNAme = "test",
-                            ProductId = 1001
-                        });
                 });
 
             modelBuilder.Entity("Ecom.Core.Entities.Product.Product", b =>

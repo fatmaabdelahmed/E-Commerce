@@ -72,5 +72,31 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecom.API.Controllers.ProductsController",
+    "Method": "get",
+    "RelativePath": "api/Products/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecom.API.Controllers.ProductsController",
+    "Method": "getById",
+    "RelativePath": "api/Products/get-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
