@@ -14,7 +14,7 @@ namespace Ecom.infrastructure.Repositories
     {
         private readonly AppDbContext _context;
         public GenericRepository(AppDbContext context)
-        {
+        { 
             _context = context;
         }
         public async Task AddAsync(T entity)
@@ -31,8 +31,8 @@ namespace Ecom.infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task<IReadOnlyList<T>> GetAllAsynnc()=> await _context.Set<T>().AsNoTracking().ToListAsync();
-        public async Task<IReadOnlyList<T>> GetAllAsynnc(params Expression<Func<T, object>>[] includes)
+        public async Task<IReadOnlyList<T>> GetAllAsync()=> await _context.Set<T>().AsNoTracking().ToListAsync();
+        public async Task<IReadOnlyList<T>> GetAllAsync(params Expression<Func<T, object>>[] includes)
         {
             var quary = _context.Set<T>().AsQueryable();
             foreach (var item in includes)

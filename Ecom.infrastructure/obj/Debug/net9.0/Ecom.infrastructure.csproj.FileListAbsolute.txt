@@ -15,3 +15,4 @@ D:\ItI\Backend\C#\API\Project\Ecom\Ecom.infrastructure\obj\Debug\net9.0\refint\E
 D:\ItI\Backend\C#\API\Project\Ecom\Ecom.infrastructure\obj\Debug\net9.0\Ecom.infrastructure.pdb
 D:\ItI\Backend\C#\API\Project\Ecom\Ecom.infrastructure\obj\Debug\net9.0\Ecom.infrastructure.genruntimeconfig.cache
 D:\ItI\Backend\C#\API\Project\Ecom\Ecom.infrastructure\obj\Debug\net9.0\ref\Ecom.infrastructure.dll
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.infrastructure\obj\Debug\net9.0\Ecom.infrastructure.sourcelink.json

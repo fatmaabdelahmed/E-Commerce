@@ -168,3 +168,6 @@ D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\tr\Microsoft.CodeAn
 D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\obj\Debug\net9.0\Ecom.API.MvcApplicationPartsAssemblyInfo.cs
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\obj\Debug\net9.0\Ecom.API.sourcelink.json
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\AutoMapper.dll

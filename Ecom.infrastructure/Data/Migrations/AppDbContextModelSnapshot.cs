@@ -71,6 +71,14 @@ namespace Ecom.infrastructure.Data.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("Photos");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 3,
+                            ImageNAme = "test",
+                            ProductId = 1001
+                        });
                 });
 
             modelBuilder.Entity("Ecom.Core.Entities.Product.Product", b =>
@@ -105,7 +113,7 @@ namespace Ecom.infrastructure.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CategoryId = 1,
+                            CategoryId = 1001,
                             Description = "test",
                             Name = "test",
                             Price = 12m
@@ -114,29 +122,22 @@ namespace Ecom.infrastructure.Data.Migrations
 
             modelBuilder.Entity("Ecom.Core.Entities.Product.Photo", b =>
                 {
-                    b.HasOne("Ecom.Core.Entities.Product.Product", "Product")
+                    b.HasOne("Ecom.Core.Entities.Product.Product", null)
                         .WithMany("Photos")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("Ecom.Core.Entities.Product.Product", b =>
                 {
                     b.HasOne("Ecom.Core.Entities.Product.Category", "Category")
-                        .WithMany("Products")
+                        .WithMany()
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Category");
-                });
-
-            modelBuilder.Entity("Ecom.Core.Entities.Product.Category", b =>
-                {
-                    b.Navigation("Products");
                 });
 
             modelBuilder.Entity("Ecom.Core.Entities.Product.Product", b =>

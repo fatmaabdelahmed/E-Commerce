@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0B47iGrdR4U=",
+  "dgSpecHash": "ZBHOxY70HkU=",
   "success": true,
   "projectFilePath": "D:\\ItI\\Backend\\C#\\API\\Project\\Ecom\\Ecom.core\\Ecom.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ALAhram\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\8.1.1\\swashbuckle.aspnetcore.swaggerui.8.1.1.nupkg.sha512"
+  ],
   "logs": []
 }
