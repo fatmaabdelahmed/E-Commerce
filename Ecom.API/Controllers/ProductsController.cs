@@ -5,6 +5,7 @@ using Ecom.Core.Entities.Product;
 using Ecom.Core.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualBasic;
 
 namespace Ecom.API.Controllers
 {
@@ -59,18 +60,52 @@ namespace Ecom.API.Controllers
             }
         }
 
-        [HttpPost("add-product")]
+        [HttpPost("add")]
+        [Consumes("multipart/form-data")]
         public async Task<IActionResult> add(AddProductDTO productDTO)
         {
             try
             {
                 await work.ProductRepository.AddAsync(productDTO);
+                return Ok(new ResponseApi(200));
 
             }
             catch (Exception ex)
             {
 
-                return BadRequest(ex.Message);
+                return BadRequest(new ResponseApi(400, ex.Message));
+            }
+        }
+        [HttpPut("update")]
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> update(UpdateProductDTO updateProductDTO)
+        {
+            try
+            {
+                await work.ProductRepository.UpdateAsync(updateProductDTO);
+                return Ok(new ResponseApi(200));
+
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(new ResponseApi(400, ex.Message));
+            }
+        }
+        [HttpDelete("delet/{id}")]
+        public async Task<IActionResult> delete(int id)
+        {
+            try
+            {
+                var product = await work.ProductRepository.GetByIdAsync(id,x=>x.Photos,x=>x.Category);
+                await work.ProductRepository.DeleteAsync(product);
+                return Ok(new ResponseApi(200));
+
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(new ResponseApi(400, ex.Message));
             }
         }
     }

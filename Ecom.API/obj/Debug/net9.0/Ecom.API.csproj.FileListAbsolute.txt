@@ -171,3 +171,6 @@ D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\obj\Debug\net9.0\Ecom.API.MvcApplica
 D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\obj\Debug\net9.0\Ecom.API.sourcelink.json
 D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\AutoMapper.dll
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\Ecom.API.staticwebassets.runtime.json
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
