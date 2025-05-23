@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "z5/OQFsYfKDKL191sA+eH3pfwDWASnhNGQLQjluK/Tk=",
+  "Hash": "iCHAX9f6G/QTm4zGGJfLwX95KAr+npxArMzY+G+y2Ic=",
   "Source": "Ecom.API",
   "BasePath": "_content/Ecom.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Ecom.API\\wwwroot",
+      "Source": "Ecom.API",
+      "ContentRoot": "D:\\ItI\\Backend\\C#\\API\\Project\\Ecom\\Ecom.API\\wwwroot\\",
+      "BasePath": "_content/Ecom.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\ItI\\Backend\\C#\\API\\Project\\Ecom\\Ecom.API\\wwwroot\\Images\\Asus\\photo_5999133869091178533_y.jpg",
+      "SourceId": "Ecom.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ItI\\Backend\\C#\\API\\Project\\Ecom\\Ecom.API\\wwwroot\\",
+      "BasePath": "_content/Ecom.API",
+      "RelativePath": "Images/Asus/photo_5999133869091178533_y#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j58jc14mel",
+      "Integrity": "B6AThByrcHVffpKmOdGdZiwbfedRaqi6x9obzjGbn2M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Asus\\photo_5999133869091178533_y.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Images/Asus/photo_5999133869091178533_y.j58jc14mel.jpg",
+      "AssetFile": "D:\\ItI\\Backend\\C#\\API\\Project\\Ecom\\Ecom.API\\wwwroot\\Images\\Asus\\photo_5999133869091178533_y.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88480"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B6AThByrcHVffpKmOdGdZiwbfedRaqi6x9obzjGbn2M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 08:40:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j58jc14mel"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Asus/photo_5999133869091178533_y.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B6AThByrcHVffpKmOdGdZiwbfedRaqi6x9obzjGbn2M="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Asus/photo_5999133869091178533_y.jpg",
+      "AssetFile": "D:\\ItI\\Backend\\C#\\API\\Project\\Ecom\\Ecom.API\\wwwroot\\Images\\Asus\\photo_5999133869091178533_y.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88480"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B6AThByrcHVffpKmOdGdZiwbfedRaqi6x9obzjGbn2M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 08:40:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B6AThByrcHVffpKmOdGdZiwbfedRaqi6x9obzjGbn2M="
+        }
+      ]
+    }
+  ]
 }

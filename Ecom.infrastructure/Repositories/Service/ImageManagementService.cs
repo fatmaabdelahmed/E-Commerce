@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Ecom.infrastructure.Repositories.Service
 {
-    internal class ImageManagementService : IImageManagementService
+    public class ImageManagementService : IImageManagementService
     {
         private readonly IFileProvider fileProvider;
         public ImageManagementService(IFileProvider fileProvider)

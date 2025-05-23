@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
 using Ecom.Core.Entities.Product;
 using Ecom.Core.Interfaces;
+using Ecom.Core.Services;
 using Ecom.infrastructure.Data;
 using Ecom.infrastructure.Repositories.Service;
+using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,12 +17,12 @@ namespace Ecom.infrastructure.Repositories
     {
         private readonly AppDbContext _context;
         private readonly IMapper _mapper;
-        private readonly ImageManagementService _imageManagementService; 
+        private readonly IImageManagementService _imageManagementService; 
         public ICategoryRepository CategoryRepository { get; }
         public IPhotoRepository PhotoRepository { get; }
         public IProductRepository ProductRepository { get; }
 
-        public UnitOfWork(AppDbContext context, IMapper mapper, ImageManagementService imageManagementService)
+        public UnitOfWork(AppDbContext context, IMapper mapper, IImageManagementService imageManagementService)
         {
             _context = context;
 
