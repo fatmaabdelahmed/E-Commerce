@@ -174,3 +174,8 @@ D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\AutoMapper.dll
 D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\Ecom.API.staticwebassets.runtime.json
 D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
