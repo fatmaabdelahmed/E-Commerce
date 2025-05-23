@@ -179,3 +179,5 @@ D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\Microsoft.AspNetCor
 D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
 D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\jose-jwt.dll
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

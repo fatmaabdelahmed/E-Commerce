@@ -61,6 +61,10 @@ namespace Ecom.API
                     };
                 });
 
+
+
+
+
             var app = builder.Build();
 
             app.UseSwaggerUI(op => op.SwaggerEndpoint("/openapi/v1.json", "v1"));

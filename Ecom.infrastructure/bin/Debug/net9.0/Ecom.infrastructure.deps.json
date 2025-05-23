@@ -15,7 +15,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.5",
           "Swashbuckle.AspNetCore.SwaggerGen": "8.1.1",
-          "Swashbuckle.AspNetCore.SwaggerUI": "8.1.1"
+          "Swashbuckle.AspNetCore.SwaggerUI": "8.1.1",
+          "jose-jwt": "5.1.1"
         },
         "runtime": {
           "Ecom.infrastructure.dll": {}
@@ -72,6 +73,18 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "jose-jwt/5.1.1": {
+        "dependencies": {
+          "System.Security.Cryptography.Cng": "5.0.0",
+          "System.Text.Json": "9.0.5"
+        },
+        "runtime": {
+          "lib/netstandard2.1/jose-jwt.dll": {
+            "assemblyVersion": "5.1.1.0",
+            "fileVersion": "5.1.1.0"
           }
         }
       },
@@ -1167,6 +1180,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "jose-jwt/5.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ojuSkZaJsYqz8nAI2Nb1G240gu7v3iTf9hBS3JRmTn89MqG+FT6a5+9gZTBi/2/RqZdQhcZSfYTfA10IZfA6dA==",
+      "path": "jose-jwt/5.1.1",
+      "hashPath": "jose-jwt.5.1.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/9.0.5": {
       "type": "package",

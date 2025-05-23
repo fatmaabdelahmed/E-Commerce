@@ -42,11 +42,11 @@ namespace Ecom.infrastructure.Repositories.Service
             return SaveImageSrc;
         }
 
-        public void DeleteImageAsync(string src)
+        public async Task DeleteImageAsync(string src)
         {
             var info = fileProvider.GetFileInfo(src);
             var root = info.PhysicalPath;
-            File.Delete(root);
+           File.Delete(root);
             
         }
 
