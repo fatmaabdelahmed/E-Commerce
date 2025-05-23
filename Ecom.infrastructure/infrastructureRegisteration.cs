@@ -3,6 +3,7 @@ using Ecom.Core.Services;
 using Ecom.infrastructure.Data;
 using Ecom.infrastructure.Repositories;
 using Ecom.infrastructure.Repositories.Service;
+using Ecom.infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -31,6 +32,8 @@ namespace Ecom.infrastructure
             {
                 op.UseSqlServer(configuration.GetConnectionString("Ecom"));
             });
+            services.AddScoped<ITokenService, TokenService>();
+
             return services;
         }
 

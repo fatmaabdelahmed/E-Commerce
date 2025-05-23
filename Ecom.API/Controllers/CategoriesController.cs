@@ -3,6 +3,7 @@ using Ecom.API.Helper;
 using Ecom.Core.DTOs;
 using Ecom.Core.Entities.Product;
 using Ecom.Core.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -54,6 +55,7 @@ namespace Ecom.API.Controllers
             }
 
         }
+        [Authorize(Roles = "Admin")]
         [HttpPost("add-category")]
         public async Task<IActionResult> add(CategoryDTO categoryDTO)
         {
@@ -71,6 +73,8 @@ namespace Ecom.API.Controllers
 
             }
         }
+        [Authorize(Roles = "Admin")]
+
         [HttpPut("update-category")]
         public async Task<IActionResult> update(UpdateCategoryDTO categoryDTO)
         {
@@ -87,6 +91,7 @@ namespace Ecom.API.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        [Authorize(Roles = "Admin")]
 
         [HttpDelete("delete-category")]
         public async Task<IActionResult> delete(int id)
