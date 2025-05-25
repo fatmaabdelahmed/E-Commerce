@@ -18,6 +18,16 @@ namespace Ecom.API
         {
 
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAngular",
+                    builder =>
+                    {
+                        builder.WithOrigins("http://localhost:4200") // Angular app origin
+                               .AllowAnyHeader()
+                               .AllowAnyMethod();
+                    });
+            });
 
             builder.Services.AddDbContext<AppDbContext>(options =>
             {
@@ -73,6 +83,7 @@ namespace Ecom.API
             app.UseMiddleware<ExceptionsMiddleware>();
             app.UseStatusCodePagesWithReExecute("/errors/{0}");
             app.UseHttpsRedirection();
+            app.UseCors("AllowAngular");
             app.UseAuthentication();
             app.UseAuthorization();
             app.MapControllers();
