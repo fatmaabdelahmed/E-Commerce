@@ -1,0 +1,45 @@
+# Ignore Visual Studio temporary files, build results, and user-specific files
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+## VS folder
+.vs/
+
+## Others
+*.log
+*.tlog
+*.cache
+*.dbmdl
+*.bak
+*.ncb
+*.opendb
+*.VC.db
+*.pidb
+*.sdf
+
+## Rider IDE
+.idea/
+*.sln.iml
+
+## NuGet
+*.nupkg
+.nuget/
+packages/
+
+# Optional: Node modules (if using front-end frameworks)
+node_modules/

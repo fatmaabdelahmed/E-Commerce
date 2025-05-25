@@ -1,0 +1,13 @@
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\bin\Debug\net9.0\Ecom.Core.deps.json
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\bin\Debug\net9.0\Ecom.Core.dll
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\bin\Debug\net9.0\Ecom.Core.pdb
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\obj\Debug\net9.0\Ecom.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\obj\Debug\net9.0\Ecom.Core.AssemblyInfoInputs.cache
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\obj\Debug\net9.0\Ecom.Core.AssemblyInfo.cs
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\obj\Debug\net9.0\Ecom.Core.csproj.CoreCompileInputs.cache
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\obj\Debug\net9.0\Ecom.Core.dll
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\obj\Debug\net9.0\refint\Ecom.Core.dll
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\obj\Debug\net9.0\Ecom.Core.pdb
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\obj\Debug\net9.0\ref\Ecom.Core.dll
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\obj\Debug\net9.0\Ecom.Core.csproj.AssemblyReference.cache
+D:\ItI\Backend\C#\API\Project\Ecom\Ecom.core\obj\Debug\net9.0\Ecom.Core.sourcelink.json
